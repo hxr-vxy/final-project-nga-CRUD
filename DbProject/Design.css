@@ -1,0 +1,53 @@
+body{
+    margin: 18px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: skyblue;
+    gap: 10px;
+
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+    
+}
+
+form{
+    max-width: 300px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+    background: white;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+ 
+}
+
+form label{
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+div button {
+    width: 100%;
+    gap: 5px;
+    border-radius: 4px;
+
+    
+}
+
+div button: hover {
+    
+}
