@@ -1,4 +1,6 @@
 <?php  require_once 'Bridge.php';?>
+<br>
+<a href='DbConnect.php' class="home-btn">Home</a><br>   
 
 <?php 
 
@@ -6,7 +8,7 @@ $result = $conn->query("SELECT * FROM students");
 
 if($result->num_rows > 0) {
 
-    echo "<table border='1px solid black border-collapse:collapse'>";
+    echo "<table border='1px solid black'>";
     echo "<tr>
             <th>Id</th>
             <th>Firstname</th>
