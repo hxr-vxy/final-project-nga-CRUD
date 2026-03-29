@@ -12,6 +12,7 @@ a {
     color: white;
     border-radius: 6px;
     font-size: 14px;
+    
 }
 
 a:hover {
@@ -38,4 +39,20 @@ td {
 
 tr:hover {
     background-color: #f1f1f1;
+}
+
+.home-btn {
+    display: block;
+    width: fit-content;
+    margin-left: auto; /* moves to right */
+
+    padding: 8px 14px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.home-btn:hover {
+    background-color: #45a049;
 }
