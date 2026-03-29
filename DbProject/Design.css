@@ -1,51 +1,69 @@
-body{
-    margin: 18px;
-    margin-top: 200PX;
-    padding: 0;
+naa koy gi add nga div tag sa content name kay container, tas nag add sd ko ug class name sa button nga portion
+
+
+body {
+    margin: 0;
+    height: 100vh;
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    align-items: center;
     background: linear-gradient(to right, violet, skyblue);
-    gap: 10px;
-
-}
-
-table {
-    border: 1px solid black;
-    border-collapse: collapse;
-    background-color: white;
-    
-}
-
-form{
-    max-width: 300px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-
-    background: white;
-    border-radius: 8px;
-    border: 1px solid #ddd;
- 
-}
-
-form label{
     font-family: Arial, sans-serif;
-    font-weight: bold;
 }
 
-div {
+/* ONE RECTANGLE */
+.container {
+    display: flex;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden; /* important so it stays ONE shape */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* LEFT SIDE (FORM) */
+form {
+    padding: 25px;
+    width: 300px;
     display: flex;
     flex-direction: column;
-    gap: 5px;
 }
 
-div button {
-    width: 100%;
-    gap: 5px;
-    border-radius: 4px;
+/* RIGHT SIDE (BUTTONS) */
+.actions {
+    padding: 25px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    border-left: 1px solid #ddd;
+}
 
-    
+/* INPUTS */
+input[type="text"] {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* SUBMIT */
+.subtmit {
+    padding: 10px;
+    border: none;
+    background: violet;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* BUTTONS */
+.actions button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: skyblue;
+    cursor: pointer;
 }
 
